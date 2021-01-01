@@ -1,5 +1,7 @@
 <!doctype html>
+
 <html class="no-js" lang="en" dir="ltr">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,6 +12,7 @@
 	<link rel="stylesheet" href="css/app.css">
  
 </head>
+
 <body>
 	<div class="row">
 		<div class="large-9 columns">
@@ -25,13 +28,13 @@
 				</div>
 				<div class="large-8 columns" >
 					<p style="font-size:16px; font-weight:200; line-height: 24px; margin-top: 0px; font-family:Helvetica">
-						I am a bioinformatic scientist with wide ranging experience in oncology, genetics and genomic. 
+						I am a bioinformatic scientist with wide ranging experience in oncology, genetics and genomics. 
 						<!-- Currently, I am working on cancer genomic research projects as a postdoctoral fellow in the <a href="https://www.rits.onc.jhmi.edu/dbb/">Oncology Division of Biostatistics and Bioinformatics</a> at The <a href="https://www.hopkinsmedicine.org">Johns Hopkins University School of Medicine</a>!-->
 						<!-- I am currently Postdoctoral Researcher in Oncological Data Science at <a href="https://www.jhu.edu">Johns Hopkins University</a>Johns Hopkins University in Baltimore, Maryland, USA, working with Professor <a href="https://cmm.jhmi.edu/index.php/cmm-faculty/elana-j-fertig-phd/">Elana Fertig</a>. -->
 
 						<br/>
 						<br/>
-						My research interests lie at the intersection of human genetics, cancer genomics, and translational bioinformatics, and I work to leverage data science tools and techniques to inform increasingly personalized and precise medical care. 
+						My research interests lie at the intersection of human genetics, cancer genomics, and translational bioinformatics, and I strive to leverage data science tools and techniques to inform increasingly personalized and precise medical care. 
 						
 						<!--
 						My name is Michael D. Kessler, and I am currently a postdoctoral fellow working on bioinformatic and cancer genomic research in the Department of Oncology at The Johns Hopkins University School of Medicine. Prior to this position, I studied cancer biology and genome science as a PhD student in Molecular Medicine at the University of Maryland School of Medicine. I am currently working on pan cancer and head and neck cancer specific biological data science projects related to transcription factors, super enhancers, alternative slplicing, and high throughput drug sensitivity screens. I previously worked on projects related to population genetics and molecular evolution, and my thesis work focused on the application of clinical genomics to human populations with differing ancestral backgrounds. I am interested in using data driven analysis to find answers to biomedical questions of translational, financial, and industrial interest.
@@ -53,8 +56,8 @@
 						<div class="large-12 columns">
 							<ul class="tabs" data-tabs id="example-tabs">
 								<li class="tabs-title is-active"><a href="#panel1" aria-selected="true" style="font-size:20px; color:grey">Publications</a></li>  
-								<!--<li class="tabs-title"><a href="#panel2" style="font-size:20px; color:grey">Projects</a></li>!-->              
-								<li class="tabs-title"><a href="#panel3" style="font-size:20px; color:grey">About</a></li>  
+								<li class="tabs-title"><a href="#panel2" style="font-size:20px; color:grey">Projects</a></li>
+								<!--<li class="tabs-title"><a href="#panel3" style="font-size:20px; color:grey">About</a></li>  !-->
 								<!-- <li class="tabs-title"><a href="#panel3" style="font-size:20px; color:grey">Collaborators</a></li>  -->    
 							</ul>
 						</div>
@@ -105,7 +108,7 @@
 										<tbody><tr>
 											<td width=100px>
 												<div class="large-1 columns">
-													<img class='paperimage' alt=""  src="images/papers/DNMs.figures.PNAS.Figure2.pdf"/>
+													<img class='paperimage' alt=""  src="images/papers/Kessler_et_al.PNAS.2020.Figure2.jpg"/>
 												</div>
 											</td>
 											<td style="font-weight:370; font-family:Helvetica Neue; font-size:15px">
@@ -328,137 +331,165 @@
 											</td>
 										</tr></tbody>
 									</table>                     
-
-
-										</div>
-									</div>
+									
 								</div>
 							</div>
-							<!-- COMMENT OUT PROJECT TAB
-							<div class="tabs-content" data-tabs-content="example-tabs">
-								<div class="tabs-panel" id="panel2">
-									<div class="row">
+						</div>
+					</div>
+					<div class="tabs-content" data-tabs-content="example-tabs">
+						<div class="tabs-panel is-active" id="panel2">
+							<div class="row">
+								<div class="large-12 columns">
+
+									<h4>1 - Title of some first analysis</h4>
+									<div class="large-12 columns" style="margin-bottom: 15px">
+										<img alt=""  src="images/GoneGrepping.jpg"/>
+									</div>
+									<div class="large-12 columns">
+										A bunch of description with a link to a <a <href="https://github.com/mdkessler/kTSPR">GitHub repo</a><br/>
+									</div> 
+
+										<h4>Title of some second analysis</h4>
+									<div class="large-12 columns" style="margin-bottom: 15px; margin-top: 20px">
+										<img alt=""  src="images/PGDx.jpg"/>
+									</div>
+									<div class="large-12 columns">
+										some more descriptio...
+									</div>      
+								</div>       
+							</div>       
+						</div>       
+					</div>
+
+					<!--COMMENT OUT PREVIOUS PROJECT TAB STRUCTURE FOR POTENTIAL USE IN THE FUTURE
+					<div class="tabs-content" data-tabs-content="example-tabs">
+						<div class="tabs-panel" id="panel2">
+							<div class="row">
+								<div class="large-12 columns">
+
+									<h4>1 - Predicting the frequencies of drug side effects</h4>
+									<div class="large-12 columns" style="margin-bottom: 15px">
+										<img alt=""  src="images/projects/frequencyprediction.png"/>
+									</div>
+									<div class="large-12 columns">
+										A central issue in drug risk-benefit assessment is the identification of the frequencies of side effects in humans. Currently, these frequencies are experimentally determined in randomised controlled clinical trials. We developed a novel machine learning framework for computationally predicting the frequencies of drug side effects. Our matrix decomposition algorithm learns latent signatures of drugs and side effects that are both reproducible and biologically interpretable. We show the usefulness of our approach on 759 structurally and therapeutically diverse drugs and 994 side effects from all human physiological systems. Our approach can be applied to any drug or compound for which a few side effect frequencies have been identified, in order to predict the frequencies of further, yet unidentified, side effects. We also found that our model is informative of the biology underlying drug activity: individual components of the drug signatures are related to the distinct anatomical categories of the drugs and to the specific drug routes of administration.
+
+									</div> 
+
+										<h4>2 - Extending the druggable genome</h4>
+									<div class="large-12 columns" style="margin-bottom: 15px; margin-top: 20px">
+										<img alt=""  src="images/projects/drugtarget.png"/>
+									</div>
+									<div class="large-12 columns">
+										The identification of unknown targets of drugs is critical for the development of novel medicines and for the repositioning of old drugs. Yet, the molecular characterisation of molecules remains a daunting task. Recent estimates indicates that the number of targets known for approved drugs is only 4.5 (DrugBank 5.1). The goal of this project is to develop a machine learning model that not only allow to predict novel drug targets but also, it can help us to extend the known druggable genome.
+
 										<div class="large-12 columns">
+											<font color="#2166ac">
+												<a class='papertitle' href="" style="margin-bottom: 15px; margin-top: 15px"><b>References</b></a><br/>
+												<div class="csl-bib-body" style="line-height: 2; ">
+													<div class="csl-entry" style="clear: left; ">
+													<div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 1em;">1.</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Hopkins, A. L. &amp; Groom, C. R. The druggable genome. <i>Nature Reviews Drug Discovery</i> <b>1</b>, 727–730 (2002).</div>
+													</div> 
+												</div>
 
-											<h4>1 - Predicting the frequencies of drug side effects</h4>
-											<div class="large-12 columns" style="margin-bottom: 15px">
-												<img alt=""  src="images/projects/frequencyprediction.png"/>
-											</div>
-											<div class="large-12 columns">
-												A central issue in drug risk-benefit assessment is the identification of the frequencies of side effects in humans. Currently, these frequencies are experimentally determined in randomised controlled clinical trials. We developed a novel machine learning framework for computationally predicting the frequencies of drug side effects. Our matrix decomposition algorithm learns latent signatures of drugs and side effects that are both reproducible and biologically interpretable. We show the usefulness of our approach on 759 structurally and therapeutically diverse drugs and 994 side effects from all human physiological systems. Our approach can be applied to any drug or compound for which a few side effect frequencies have been identified, in order to predict the frequencies of further, yet unidentified, side effects. We also found that our model is informative of the biology underlying drug activity: individual components of the drug signatures are related to the distinct anatomical categories of the drugs and to the specific drug routes of administration.
-	   
-											</div> 
+													<div class="csl-bib-body" style="line-height: 2; ">
+														<div class="csl-entry" style="clear: left; ">
+														<div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 1em;">1.</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Finan, C. <i>et al.</i> The druggable genome and support for target identification and validation in drug development. <i>Science Translational Medicine</i> <b>9</b>, (2017).</div>
+														</div>  
+												</div>
+													<div class="csl-bib-body" style="line-height: 2; ">
+													<div class="csl-entry" style="clear: left; ">
+													<div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 1em;">1.</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Russ, A. P. &amp; Lampel, S. The druggable genome: an update. <i>Drug Discovery Today</i> <b>10</b>, 1607–1610 (2005).</div>
+													</div>  
+												</div>
+												<div class="csl-bib-body" style="line-height: 2; ">
+													<div class="csl-entry" style="clear: left; ">
+													<div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 1em;">1.</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Rask-Andersen, M., Masuram, S. &amp; Schiöth, H. B. The Druggable Genome: Evaluation of Drug Targets in Clinical Trials Suggests Major Shifts in Molecular Class and Indication. <i>Annu. Rev. Pharmacol. Toxicol.</i> <b>54</b>, 9–26 (2014).</div>
+													</div> 
+												</div>
 
-												<h4>2 - Extending the druggable genome</h4>
-											<div class="large-12 columns" style="margin-bottom: 15px; margin-top: 20px">
-												<img alt=""  src="images/projects/drugtarget.png"/>
-											</div>
-											<div class="large-12 columns">
-												The identification of unknown targets of drugs is critical for the development of novel medicines and for the repositioning of old drugs. Yet, the molecular characterisation of molecules remains a daunting task. Recent estimates indicates that the number of targets known for approved drugs is only 4.5 (DrugBank 5.1). The goal of this project is to develop a machine learning model that not only allow to predict novel drug targets but also, it can help us to extend the known druggable genome.
-
-												<div class="large-12 columns">
-													<font color="#2166ac">
-														<a class='papertitle' href="" style="margin-bottom: 15px; margin-top: 15px"><b>References</b></a><br/>
-														<div class="csl-bib-body" style="line-height: 2; ">
-														  <div class="csl-entry" style="clear: left; ">
-														    <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 1em;">1.</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Hopkins, A. L. &amp; Groom, C. R. The druggable genome. <i>Nature Reviews Drug Discovery</i> <b>1</b>, 727–730 (2002).</div>
-														  </div> 
-														</div>
-
-													     <div class="csl-bib-body" style="line-height: 2; ">
-															  <div class="csl-entry" style="clear: left; ">
-															    <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 1em;">1.</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Finan, C. <i>et al.</i> The druggable genome and support for target identification and validation in drug development. <i>Science Translational Medicine</i> <b>9</b>, (2017).</div>
-															  </div>  
-														</div>
-													     <div class="csl-bib-body" style="line-height: 2; ">
-														  <div class="csl-entry" style="clear: left; ">
-														    <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 1em;">1.</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Russ, A. P. &amp; Lampel, S. The druggable genome: an update. <i>Drug Discovery Today</i> <b>10</b>, 1607–1610 (2005).</div>
-														  </div>  
-														</div>
-													    <div class="csl-bib-body" style="line-height: 2; ">
-														  <div class="csl-entry" style="clear: left; ">
-														    <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 1em;">1.</div><div class="csl-right-inline" style="margin: 0 .4em 0 1.5em;">Rask-Andersen, M., Masuram, S. &amp; Schiöth, H. B. The Druggable Genome: Evaluation of Drug Targets in Clinical Trials Suggests Major Shifts in Molecular Class and Indication. <i>Annu. Rev. Pharmacol. Toxicol.</i> <b>54</b>, 9–26 (2014).</div>
-														  </div> 
-														</div>
-
-												   </font>
-	   											</div>  
-											</div>       
-										</div>       
+											</font>
+										</div>  
 									</div>       
 								</div>       
 							</div>       
-!-->      
-<div class="tabs-content" data-tabs-content="example-tabs">
-	<div class="tabs-panel" id="panel3">
-		<div class="row">
-			<div class="large-12 columns">
-				<p>
-					ADD BIO
-				</p>
-				</div>       
-			</div>       
-		</div>       
-	</div>       
+						</div>       
+					</div>      
+					!-->
 
+					<!-- COMMENT OUT ABOUT TAB
+					<div class="tabs-content" data-tabs-content="example-tabs">
+						<div class="tabs-panel" id="panel3">
+							<div class="row">
+								<div class="large-12 columns">
+									<p>
+										ADD BIO
+									</p>
+								</div>       
+							</div>       
+						</div>       
+					</div>     
+					!-->
+						
+				</div>
+			</div>
 	
+			<!-- Panel on the top right !-->
+			<div class="large-3 columns">
+				<div class="panel">
+					
+					<!--
+					Job title, email
+					!-->
+					<hr/>
+					<!-- <a href="https://www.personalgenome.com"><img style="height: 80px; display: block; margin-left: auto; margin-right: auto" alt="PGDx" src="images/PGDx.jpg"></a> !-->
+					<img style="height: 140px; display: block; margin-left: auto; margin-right: auto" alt="HelloPerson" src="images/HelloPersonV1.Cropped.jpg"></a>
+					<br/>
+					<p>
+						Bioinformatic Scientist<br/>
+						Baltimore, MD<br/>
+						<!-- Office: NA<br/> !-->
+						
+					</p>
 
-</div>       
-</div>
-<!-- Panel on the top right !-->
-<div class="large-3 columns">
-	<div class="panel">
-		
-		<!--
-		Job title, email
-		!-->
-		<hr/>
-		<!-- <a href="https://www.personalgenome.com"><img style="height: 80px; display: block; margin-left: auto; margin-right: auto" alt="PGDx" src="images/PGDx.jpg"></a> !-->
-		<img style="height: 140px; display: block; margin-left: auto; margin-right: auto" alt="HelloPerson" src="images/HelloPersonV1.Cropped.jpg"></a>
-		<br/>
-		<p>
-			Bioinformatic Scientist<br/>
-			Baltimore, MD<br/>
-			<!-- Office: NA<br/> !-->
-			
-		</p>
-		<p style="font-size:14px">
-			<a href = "mailto: michaelkessler511@gmail.com">michaelkessler511@gmail.com</a>
-		</p>
-		
-		<!--
-		Professional documents and profile links - LinkedIn, Resume, Google Scholar, etc
-		!-->
-		<hr/>          
-		<p>       
-			<a href="https://www.linkedin.com/in/michaelkessler511/">LinkedIn</a></br>
-			<!--<a href="ADD">Resume</a></br>!-->
-			<a href="https://scholar.google.com/citations?user=c7wNLkcAAAAJ&hl=en">Google Scholar</a>
-			<br/>
-		</p>
-		<hr/>
+					<p style="font-size:14px">
+						<a href = "mailto: michaelkessler511@gmail.com">michaelkessler511@gmail.com</a>
+					</p>
+					
+					<!--
+					Professional documents and profile links - LinkedIn, Resume, Google Scholar, etc
+					!-->
+					<hr/>          
+					<p>       
+						<a href="https://www.linkedin.com/in/michaelkessler511/">LinkedIn</a></br>
+						<!--<a href="ADD">Resume</a></br>!-->
+						<a href="https://scholar.google.com/citations?user=c7wNLkcAAAAJ&hl=en">Google Scholar</a>
+						<br/>
+					</p>
+					<hr/>
 
-		<!-- <script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5bocjms8uin&amp;m=0c&amp;c=c7eae5&amp;cr1=8c510a&amp;sx=0&amp;cw=bdd7e7&amp;cb=01665e" async="async"></script> !-->
+					<!-- <script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5bocjms8uin&amp;m=0c&amp;c=c7eae5&amp;cr1=8c510a&amp;sx=0&amp;cw=bdd7e7&amp;cb=01665e" async="async"></script> !-->
+				</div>
+
+				<!--
+				Don't want to include twitter currently
+				<div>
+					<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our paper is finally out! It has been a long journey! Thanks to my supervisor <a href="https://twitter.com/A_Paccanaro?ref_src=twsrc%5Etfw">@A_Paccanaro</a> and co-authors <a href="https://twitter.com/shantaolee?ref_src=twsrc%5Etfw">@shantaolee</a> <a href="https://twitter.com/MarkGerstein?ref_src=twsrc%5Etfw">@MarkGerstein</a>! Please share our work <a href="https://twitter.com/hashtag/drugsideeffects?src=hash&amp;ref_src=twsrc%5Etfw">#drugsideeffects</a> <a href="https://twitter.com/hashtag/drugsafety?src=hash&amp;ref_src=twsrc%5Etfw">#drugsafety</a> <a href="https://twitter.com/hashtag/machinelearning?src=hash&amp;ref_src=twsrc%5Etfw">#machinelearning</a> <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> <a href="https://twitter.com/NatureComms?ref_src=twsrc%5Etfw">@NatureComms</a> <a href="https://t.co/mftdHUXokF">https://t.co/mftdHUXokF</a></p>&mdash; diego galeano (@diegogaleano05) <a href="https://twitter.com/diegogaleano05/status/1304450950124445696?ref_src=twsrc%5Etfw">September 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				</div>
+				!-->
+			</div>
+		</div>
 	</div>
-
-	<!--
-	Don't want to include twitter currently
-	<div>
-		<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our paper is finally out! It has been a long journey! Thanks to my supervisor <a href="https://twitter.com/A_Paccanaro?ref_src=twsrc%5Etfw">@A_Paccanaro</a> and co-authors <a href="https://twitter.com/shantaolee?ref_src=twsrc%5Etfw">@shantaolee</a> <a href="https://twitter.com/MarkGerstein?ref_src=twsrc%5Etfw">@MarkGerstein</a>! Please share our work <a href="https://twitter.com/hashtag/drugsideeffects?src=hash&amp;ref_src=twsrc%5Etfw">#drugsideeffects</a> <a href="https://twitter.com/hashtag/drugsafety?src=hash&amp;ref_src=twsrc%5Etfw">#drugsafety</a> <a href="https://twitter.com/hashtag/machinelearning?src=hash&amp;ref_src=twsrc%5Etfw">#machinelearning</a> <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> <a href="https://twitter.com/NatureComms?ref_src=twsrc%5Etfw">@NatureComms</a> <a href="https://t.co/mftdHUXokF">https://t.co/mftdHUXokF</a></p>&mdash; diego galeano (@diegogaleano05) <a href="https://twitter.com/diegogaleano05/status/1304450950124445696?ref_src=twsrc%5Etfw">September 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-	</div>
-	!-->
-</div> 
-</div> 
-</div>
-
-
-
+	
 <div class="row">
 	<p style="font-size:10px"> Many thanks to <a href="https://diegogalpy.github.io">Diego A. Galeano G.</a> for the site template</p>
 	<script src="js/vendor/jquery.js"></script>
 	<script src="js/vendor/what-input.js"></script>
 	<script src="js/vendor/foundation.min.js"></script>
 	<script src="js/app.js"></script>
+</div>
+
 </body>
+
 </html>
